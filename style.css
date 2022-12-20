@@ -5,4 +5,57 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
+    font-family: sans-serif;
+    background-image: url("./leonard-cotte-c1Jp-fo53U8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+    
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    color: white;
+    background: slateblue;
+    opacity: .8;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: 0.8;
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    font-size: 20px;
 }
